@@ -1,0 +1,78 @@
+body {
+  margin: 0rem;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+  color: hsl(202, 64%, 20%);
+}
+
+.font2 {
+  font-family: "Roboto", sans-serif;
+  color: hsl(202, 1%, 1%);
+  font-weight: 900;
+}
+
+.font3 {
+  font-family: "Roboto", sans-serif;
+  color: hsl(202, 64%, 20%);
+}
+
+.imag-backgrond {
+  background-image: url(Berge.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imag-backgrond2 {
+  background-image: url(Blumen2.jpeg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-schatten {
+  box-shadow: hsl(202, 20%, 80%) 5px 5px 12px;
+  border-radius: 3rem;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imag-wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vh;
+  max-height: 50vh;
+
+  border-radius: 3rem;
+}
+
+.imag-wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 50vh;
+  max-height: 50vh;
+  background-color: hsl(202, 80%, 80%);
+  opacity: 0.6;
+  padding: 1rem 1rem;
+  border-radius: 3rem;
+}
+
+.imag-wrapper1:hover {
+  opacity: 0;
+}
+.backgrond-imag {
+  background-image: url(Geschenk1.jpeg);
+}
+
+.box-margin {
+  margin: 1rem;
+}
